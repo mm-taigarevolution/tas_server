@@ -1,0 +1,20 @@
+{
+  "name": "tas_server",
+  "version": "1.0.0",
+  "description": "Taiga Auction System: Node.js server with REST API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.12.0"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongoose": "^4.11.10",
+    "mongoose-extend-schema": "^1.0.0"
+  }
+}
